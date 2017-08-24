@@ -50,15 +50,5 @@
 
 + (NSString *)getDBPath:(NSString *)filename;
 
-+ (NSMutableDictionary *)creatDictWith:(NSString *)guidName andfileName:(NSString *)fileName andremoteUrl:(NSString *)remoteUrl andLength:(NSNumber *)Length andTransmissionDirection:(NSNumber *)TransmissionDirection andTransmissionFinished:(NSNumber *)TransmissionFinished andTransferredLength:(NSNumber *)TransferredLength andStarTime:(NSNumber *)StarTime andTransferredFail:(NSNumber *)TransferredFail;//生成字典
-
-+(NSString *)stringByDict:(NSDictionary *)dict;//把字典转成字符串
-
-+(NSString *)stringByDict1:(NSDictionary *)dict;//把字典转成字符串
-
-+ (NSDictionary *)dictionaryWithJsonString:(NSString *)jsonString;//jso字符串转字典
-
-+(NSString *)stringByArr:(NSArray *)array;//把数组转成字符串
-+ (NSArray *)ArrayWithJsonString:(NSString *)jsonString;//jso字符串转数组
 
 @end

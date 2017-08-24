@@ -127,6 +127,16 @@
 
 // 编码：A => QQ==
 
+//获取请求头
++ (NSString *)addAFNHeader
+{
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSString *Uid = [defaults valueForKey:@"Uid"];
+    NSString *password = [defaults valueForKey:@"password"];
+    NSString *Uid_base = [NSString base64Encode:[NSString stringWithFormat:@"%@:%@",Uid,password]];
+    return [NSString stringWithFormat:@"Basic %@",Uid_base];
+}
+
 //编码
 +(NSString*)base64Encode:(NSString *)string{
     //1.将字符串转换成二进制数据
@@ -183,6 +193,13 @@
 //        }
 //    }
 //    return target;
+//}
+
+
+//for (UIViewController *vc in self.navigationController.viewControllers) {
+//    if ([vc isKindOfClass:[WebViewController class]]) {
+//        [self.navigationController popToViewController:vc animated:YES];
+//    }
 //}
 
 
