@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		014717541F4EA1A200BD95BD /* DateManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 014717531F4EA1A200BD95BD /* DateManger.m */; };
 		014717581F4EA30A00BD95BD /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 014717571F4EA30A00BD95BD /* LoginViewController.m */; };
+		014717611F4EB96500BD95BD /* address.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0147175A1F4EB96500BD95BD /* address.txt */; };
+		014717621F4EB96500BD95BD /* AddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0147175C1F4EB96500BD95BD /* AddressPickerView.m */; };
+		014717631F4EB96500BD95BD /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 0147175E1F4EB96500BD95BD /* City.m */; };
+		014717641F4EB96500BD95BD /* Province.m in Sources */ = {isa = PBXBuildFile; fileRef = 014717601F4EB96500BD95BD /* Province.m */; };
+		014717671F4EBADA00BD95BD /* ATDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 014717661F4EBADA00BD95BD /* ATDatePicker.m */; };
 		01B8F05B1F4D4EE70049AA11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B8F05A1F4D4EE70049AA11 /* main.m */; };
 		01B8F05E1F4D4EE70049AA11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B8F05D1F4D4EE70049AA11 /* AppDelegate.m */; };
 		01B8F0661F4D4EE70049AA11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01B8F0651F4D4EE70049AA11 /* Assets.xcassets */; };
@@ -78,6 +83,15 @@
 		014717531F4EA1A200BD95BD /* DateManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateManger.m; sourceTree = "<group>"; };
 		014717561F4EA30A00BD95BD /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		014717571F4EA30A00BD95BD /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		0147175A1F4EB96500BD95BD /* address.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = address.txt; sourceTree = "<group>"; };
+		0147175B1F4EB96500BD95BD /* AddressPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressPickerView.h; sourceTree = "<group>"; };
+		0147175C1F4EB96500BD95BD /* AddressPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressPickerView.m; sourceTree = "<group>"; };
+		0147175D1F4EB96500BD95BD /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		0147175E1F4EB96500BD95BD /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		0147175F1F4EB96500BD95BD /* Province.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Province.h; sourceTree = "<group>"; };
+		014717601F4EB96500BD95BD /* Province.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Province.m; sourceTree = "<group>"; };
+		014717651F4EBADA00BD95BD /* ATDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATDatePicker.h; sourceTree = "<group>"; };
+		014717661F4EBADA00BD95BD /* ATDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATDatePicker.m; sourceTree = "<group>"; };
 		01B8F0561F4D4EE70049AA11 /* GeneralDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeneralDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01B8F05A1F4D4EE70049AA11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		01B8F05C1F4D4EE70049AA11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -210,6 +224,20 @@
 			name = LoginVC;
 			sourceTree = "<group>";
 		};
+		014717591F4EB96500BD95BD /* AddressPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				0147175A1F4EB96500BD95BD /* address.txt */,
+				0147175B1F4EB96500BD95BD /* AddressPickerView.h */,
+				0147175C1F4EB96500BD95BD /* AddressPickerView.m */,
+				0147175D1F4EB96500BD95BD /* City.h */,
+				0147175E1F4EB96500BD95BD /* City.m */,
+				0147175F1F4EB96500BD95BD /* Province.h */,
+				014717601F4EB96500BD95BD /* Province.m */,
+			);
+			path = AddressPickerView;
+			sourceTree = "<group>";
+		};
 		01B8F04D1F4D4EE70049AA11 = {
 			isa = PBXGroup;
 			children = (
@@ -281,6 +309,9 @@
 		01B8F08E1F4D5CA10049AA11 /* OtherSource */ = {
 			isa = PBXGroup;
 			children = (
+				014717651F4EBADA00BD95BD /* ATDatePicker.h */,
+				014717661F4EBADA00BD95BD /* ATDatePicker.m */,
+				014717591F4EB96500BD95BD /* AddressPickerView */,
 				01B8F16C1F4D74D20049AA11 /* SDCycleScrollView */,
 				01B8F0CB1F4D67350049AA11 /* JKDBModel */,
 				01B8F0C51F4D60DE0049AA11 /* NSString+Additions.h */,
@@ -567,6 +598,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01B8F0691F4D4EE70049AA11 /* LaunchScreen.storyboard in Resources */,
+				014717611F4EB96500BD95BD /* address.txt in Resources */,
 				01B8F0661F4D4EE70049AA11 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -640,6 +672,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				014717671F4EBADA00BD95BD /* ATDatePicker.m in Sources */,
 				01B8F0B21F4D5F050049AA11 /* CallListViewController.m in Sources */,
 				01B8F0AF1F4D5EED0049AA11 /* GroupViewController.m in Sources */,
 				01B8F0E31F4D674F0049AA11 /* FMResultSet.m in Sources */,
@@ -648,6 +681,7 @@
 				01B8F1871F4D7B9B0049AA11 /* WebApi.m in Sources */,
 				01B8F0E01F4D674F0049AA11 /* FMDatabaseAdditions.m in Sources */,
 				01B8F0DD1F4D674F0049AA11 /* JKDBHelper.m in Sources */,
+				014717631F4EB96500BD95BD /* City.m in Sources */,
 				01B8F0A91F4D5EA00049AA11 /* ApplyViewController.m in Sources */,
 				01B8F17D1F4D74D20049AA11 /* TAAnimatedDotView.m in Sources */,
 				01B8F09B1F4D5CB80049AA11 /* UITableView+FDTemplateLayoutCellDebug.m in Sources */,
@@ -678,9 +712,11 @@
 				01B8F0C11F4D5FC60049AA11 /* TXProgressHUD.m in Sources */,
 				01B8F1811F4D74D20049AA11 /* SDCycleScrollView.m in Sources */,
 				01B8F0C41F4D5FC60049AA11 /* UIView+Utils.m in Sources */,
+				014717641F4EB96500BD95BD /* Province.m in Sources */,
 				01B8F0C31F4D5FC60049AA11 /* UILabel+ContentSize.m in Sources */,
 				01B8F0DE1F4D674F0049AA11 /* JKDBModel.m in Sources */,
 				01B8F0E21F4D674F0049AA11 /* FMDatabaseQueue.m in Sources */,
+				014717621F4EB96500BD95BD /* AddressPickerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
