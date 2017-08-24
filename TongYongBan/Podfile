@@ -1,0 +1,40 @@
+
+
+target "GeneralDemo" do
+    
+platform :ios,'8.0'
+
+pod 'AFNetworking'
+pod 'RDVTabBarController'
+pod 'IQKeyboardManager'
+pod 'Masonry'
+pod 'MJExtension'
+pod 'MMPopupView'
+pod 'NJKWebViewProgress'
+pod 'MBProgressHUD'
+pod 'MJRefresh'
+pod 'MWPhotoBrowser'
+pod 'SDWebImage'
+pod 'TZImagePickerController'
+pod 'DateTools'
+
+#pod 'SDCycleScrollView','~> 1.66'
+
+#pod 'UITableView+FDTemplateLayoutCell_Bell',:git=>'https://github.com/forkingdog/UITableView-FDTemplateLayoutCell'
+
+#pod 'DACircularProgress'
+
+#pod 'BaiduMapKit' #百度地图SDK
+
+#pod 'GDataXML-HTML', '~> 1.1.0'
+
+#pod 'SVProgressHUD'
+#pod 'M80AttributedLabel'
+#pod 'Toast', '~> 3.1.0'
+
+#pod 'NIMSDK'
+#pod 'NIMKit/Lite'
+#pod 'Hyphenate'
+#pod 'EaseUI', :git => 'https://github.com/easemob/easeui-ios-hyphenate-cocoapods.git'
+
+end

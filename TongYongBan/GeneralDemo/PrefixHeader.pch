@@ -1,0 +1,56 @@
+//
+//  PrefixHeader.pch
+//  GeneralDemo
+//
+//  Created by frank on 2017/8/23.
+//  Copyright © 2017年 frank. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "UITableView+FDTemplateLayoutCell.h"
+#import <AFNetworking.h>
+#import <MJRefresh.h>
+#import <RDVTabBarController.h>
+#import <RDVTabBarItem.h>
+#import <Masonry.h>
+#import "TXProgressHUD.h"
+#import <MBProgressHUD.h>
+#import <IQKeyboardManager.h>
+#import <MJExtension.h>
+#import <MMPopupView.h>
+#import <MMAlertView.h>
+#import <MMSheetView.h>
+#import <NJKWebViewProgressView.h>
+#import <NJKWebViewProgress.h>
+#import "UIView+Utils.h"
+#import "JKDBModel.h"
+#import "NSString+Utils.h"
+#import "UIImage+Utils.h"
+#import "UILabel+ContentSize.h"
+#import "host.h"
+#import <TZImagePickerController.h>
+#import <TZImageManager.h>
+#import <MWPhotoBrowser.h>
+#import <DateTools.h>
+#import "UINavigationController+FDFullscreenPopGesture.h"
+#import "MyNavigationController.h"
+#import "BaseViewController.h"
+#import <SDWebImage/UIImageView+WebCache.h>
+#import "JKDBModel.h"
+#import "SDCycleScrollView/SDCycleScrollView.h"
+#import "WebApi.h"
+
+#ifdef DEBUG
+#define NSLog(...) NSLog(__VA_ARGS__)
+#define debugMethod() NSLog(@"%s", __func__)
+#else
+#define NSLog(...)
+#define debugMethod()
+#endif
+
+#endif /* PrefixHeader_pch */
